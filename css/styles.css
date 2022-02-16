@@ -13,6 +13,14 @@ a {
 ul {
     list-style: none;
 }
+.page-header {
+    width: 1200 px;
+    outline: 2px solid tomato;
+}
+.container {
+    width: 1200 px;
+    outline: 2px solid tomato;
+}
 body {
     font-family: Roboto, sans-serif;
     background-color: var(--background-color);
