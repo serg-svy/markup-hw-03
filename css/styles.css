@@ -10,16 +10,28 @@ a {
     text-decoration: none;
     color: inherit;
 }
+ul,
+h1,
+h2,
+h3 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 ul {
     list-style: none;
 }
 .page-header {
-    width: 1200 px;
+    display: flex;
+    align-items: center;
     outline: 2px solid tomato;
+    height: 80px;
 }
 .container {
-    width: 1200 px;
-    outline: 2px solid tomato;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 body {
     font-family: Roboto, sans-serif;
@@ -29,6 +41,7 @@ body {
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
+    margin-right: 70px;
     line-height: calc(31 / 26);
     letter-spacing: 0.03em;
     color: var(--accent-color);
@@ -39,12 +52,17 @@ body {
 .logo-footer {
     color: var(--text-white-color);
 }
+.nav-list {
+    display: flex;
+}
 .nav-link {
+    display: block;
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
     color: var(--text-color);
+    padding-right: 50px;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -55,12 +73,17 @@ body {
     pointer-events: none;
     color: var(--accent-color);
 }
+.contacts{
+    display: flex;
+    margin-right: 140px;
+}
 .contacts-link {
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
     color: var(--text-block-color);
+    margin-right: 50px;
 }
 
 .hero {
