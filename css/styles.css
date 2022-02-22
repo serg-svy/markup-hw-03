@@ -73,7 +73,7 @@ body {
     pointer-events: none;
     color: var(--accent-color);
 }
-.contacts{
+.contacts {
     display: flex;
     margin-right: 140px;
 }
