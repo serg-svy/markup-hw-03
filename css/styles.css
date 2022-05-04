@@ -149,6 +149,7 @@ body {
 }
 .features-item {
     margin: 0 15px;
+    flex-basis: calc(25%);
 }
 .team-caption {
     font-weight: 500;
