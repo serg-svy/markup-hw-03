@@ -123,7 +123,7 @@ body {
     text-align: center;
     color: var(--text-color);
 }
-.features{
+.features {
     display: flex;
 }
 .features-caption {
@@ -141,7 +141,14 @@ body {
 }
 .features-list {
     display: flex;
-    margin: 100px 70px;
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+.features-item {
+    margin: 0 15px;
 }
 .team-caption {
     font-weight: 500;
