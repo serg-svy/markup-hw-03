@@ -122,6 +122,7 @@ body {
     letter-spacing: 0.03em;
     text-align: center;
     color: var(--text-color);
+    margin-top: 100px;
 }
 .features {
     display: flex;
@@ -144,8 +145,7 @@ body {
     width: 1170px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 94px;
-    margin-bottom: 94px;
+    margin-top: 100px;
 }
 .features-item {
     margin: 0 15px;
@@ -163,6 +163,9 @@ body {
     line-height: calc(19 / 16);
     letter-spacing: 0.03em;
     color: var(--text-block-color);
+}
+.team-item{
+margin-left: 30px;
 }
 .block-footer {
     background-color: var(--background-block);
@@ -189,7 +192,24 @@ body {
     display: flex;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
 }
+.team{
+background-color: #F5F4FA;
+display: flex;
+flex-direction: column;
+margin-top: 100px;
+}
+.team-list{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.card-item {
+    margin-left: 30px;
+}
+.t
 .footer-link {
     color: var(--text-white-color);
 }
