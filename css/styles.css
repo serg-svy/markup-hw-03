@@ -181,7 +181,15 @@ body {
 .contacts-link:focus {
     color: var(--accent-color);
 }
-
+.card {
+    display: flex;
+    flex-direction: column;
+}
+.card-list {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
 .footer-link {
     color: var(--text-white-color);
 }
